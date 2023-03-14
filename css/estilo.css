@@ -1,0 +1,156 @@
+
+  
+ a.navbar-brand {
+  font-size: 30px;
+  padding-left: 80px;
+}
+  
+  a.nav-link {
+    font-size: 20px;
+    color: white !important;
+    padding-left: 40px !important;
+    transition: 0.5s;
+  }
+  div.container-fluid {
+    justify-content: right !important;
+    padding-right: 120px;
+  }
+  a.nav-link:hover{
+    color: #CCCCCC !important;
+  }
+  h1{
+    text-align: center;
+    
+  }
+  div.cd {
+    display: flex;
+    justify-content: center;
+  
+  }
+  a.btn.btn-lg.btn-block.btn.btn-dark {
+    text-align: center;
+    padding: 8px 40px;
+  }
+  .footer
+  {
+    background: black;
+    color: white;
+    text-align: center;
+   padding: 20px 0;
+    font-size: 18px;
+    line-height: 20px;
+margin: auto;
+  }
+ 
+.dc{
+  display: flex;
+  justify-content: center;
+}
+input.btn.btn-dark {
+  padding: 10px 200px;
+}
+
+div div h2 {
+  padding: 30px;
+}
+div.form-group {
+  line-height: 50px;
+}
+#invalido{
+text-align: center;
+
+}
+.contenedor-registro{
+  padding: 50px; 
+  display: flex;
+  
+  }
+  .imagen-registro{
+    
+      background-image: url(/img/form.jpg);
+      border-radius: 20px 0 0 20px;
+      background-size: cover;
+      background-position: center;
+      width: 50%;
+      height: auto;
+      
+  }
+  
+  .formulario-registro{
+      width: 50%;
+      box-shadow: 0px 1px 10px rgb(0, 0, 0, .2);
+      border-radius: 0 20px 20px 0;
+     
+  }
+  .formulario-registro h2{
+      padding: 20px;
+      margin-top: 16px;
+      font-size: 2em;
+      text-align: center;
+  }
+  
+  .formulario-registro p {
+  text-align: center;
+  }
+  .form-dato{
+      display: block;
+      padding: 40px 50px;
+      overflow: hidden;
+      
+  }
+  .input{
+    
+      font-size: 1em;
+      margin: 0px 20px 30px 20px;
+      overflow: hidden;
+  
+  }
+  .input label{
+      display: block;
+     
+  }
+  .input input{
+      width: 240px;
+      padding: 10px;
+       border-radius: 5px;
+       border: #737373 1px solid;
+  }
+  
+  .nom-ape{
+      display: flex;
+      
+  }
+  .doc-cel{
+      display: flex;
+  }
+  .email-pass{
+      display: flex;
+  }
+  .registro{
+      text-align: center;
+      overflow: hidden;
+  }
+  .registro input{
+      background: #A0144F;
+      padding: 15px 120px;
+  font-size: 1.2em;
+  font-weight: bold;
+  color: white;
+  border-radius: 20px ;
+  border: none;
+  
+  }
+  
+  .registro :hover{
+      background: #ffa20b;
+      transition: all 500ms ease;
+      cursor: pointer;
+  }
+  
+  .cont-anuncio h2 {
+    padding: 8px;
+    font-size: 15px;
+    text-align: center;
+    font-weight: bold;
+}
+ 
