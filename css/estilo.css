@@ -153,4 +153,26 @@ text-align: center;
     text-align: center;
     font-weight: bold;
 }
- 
+ .submenu{
+  position: relative;
+ }
+ .submenu #carrito{
+  display: none;
+ }
+ .submenu:hover #carrito{
+  display: block;
+  position: absolute;
+  right: 0;
+  background-color: #A0144F;
+  top: 100%;
+  z-index: 1;
+  padding: 20px;
+  min-width: 400px;
+ }
+ table{
+  width: 100%;
+
+ }
+ th, td{
+color: white;
+ }
