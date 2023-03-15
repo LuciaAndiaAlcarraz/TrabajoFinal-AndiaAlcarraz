@@ -163,16 +163,47 @@ text-align: center;
   display: block;
   position: absolute;
   right: 0;
-  background-color: #A0144F;
+  backdrop-filter: blur(10px);
+  background-color: darkgrey;
   top: 100%;
   z-index: 1;
   padding: 20px;
   min-width: 400px;
  }
+
  table{
   width: 100%;
-
+  margin: 20px;
  }
+
  th, td{
 color: white;
+ }
+ .borrar{
+
+  background-color: #A0144F;
+  border-radius: 50%;
+  padding: 5px 10px;
+  text-decoration: none;
+  color: #feffff;
+  font-weight: 800;
+  transition: .5s;
+
+ }
+ .borrar:hover{
+  color: #feffff;
+  background: #ffa20b;
+ }
+ .btn-3, .btn-2{
+margin: 10px;
+text-decoration: none;
+padding: 10px  20px;
+background: #A0144F;
+border-radius: 8px;
+color: white;
+transition: .5s;
+ }
+ .btn-3:hover, .btn-2:hover{
+background: #ffa20b;
+  color: white;
  }
